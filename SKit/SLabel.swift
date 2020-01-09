@@ -37,7 +37,7 @@ public class SLabel: UILabel {
         layer.masksToBounds = true
     }
 
-    override func drawText(in rect: CGRect) {
+    override public func drawText(in rect: CGRect) {
         super.drawText(in: rect.inset(by: customInsets))
 //        invalidateIntrinsicContentSize()
     }
@@ -46,7 +46,7 @@ public class SLabel: UILabel {
 //        <#code#>
 //    }
 
-    override var intrinsicContentSize: CGSize {
+    override public var intrinsicContentSize: CGSize {
         let aSize = super.intrinsicContentSize
         return CGSize(width: aSize.width + customInsets.left + customInsets.right, height: aSize.height + customInsets.top + customInsets.bottom)
     }
