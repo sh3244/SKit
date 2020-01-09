@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SLabel: UILabel {
+public class SLabel: UILabel {
 
     var customInsets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
 

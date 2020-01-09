@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   spec.name = "SKit"
   spec.swift_versions = ["4.2"]
-  spec.version = "0.9.7"
+  spec.version = "0.9.8"
   spec.summary = "SKit - Sam's iOS Mobile App Development Kit"
   spec.homepage = "https://github.com/sh3244/SKit"
   spec.license = { type: 'MIT', file: 'LICENSE' }
