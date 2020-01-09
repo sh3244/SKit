@@ -8,7 +8,7 @@
 
 import Stevia
 
-@objc enum FontStyle: Int {
+@objc public enum FontStyle: Int {
     case normal, light, bold, semibold
 
     /// Override this for custom fonts
@@ -26,7 +26,7 @@ import Stevia
     }
 }
 
-extension UIFont {
+public extension UIFont {
     class func appFont(_ style: FontStyle, size: CGFloat) -> UIFont! {
         return UIFont(name: FontStyle.nameForStyle(style), size: size)
     }
