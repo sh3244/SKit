@@ -4,3 +4,5 @@
 [submodule "Carthage/Checkouts/Nimble"]
 	path = Carthage/Checkouts/Nimble
 	url = https://github.com/Quick/Nimble.git
+[submodule "Carthage/Checkouts/Stevia"]
+	url = https://github.com/sh3244/Stevia.git
